@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector選擇器練習</title>
+    <style>
+        * {
+            color: rgb(189, 189, 155);
+            background-color: aqua;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        /* .item {
+            font-size: 20px;
+        } */
+
+        #box {
+            width: 200px;
+            height: 100px;
+            background-color: brown;
+        }
+
+        ul li {
+            color: rgb(53, 29, 92);
+            font-size: 15px;
+        }
+
+        ul>li>ul>li {
+            color: red;
+        }
+
+        h1,
+        h2,
+        #title {
+            color: blueviolet;
+            background-color: aqua;
+        }
+
+        input[type="radio"] {
+            width: 40px;
+            height: 40px;
+        }
+
+        h1[data-title="abc"] {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="radio" name="radio" id="">南
+    <input type="radio" name="radio" id="">東
+    <input type="textarea" name="rad" id="">
+    <img src="imgs/toyz.gif" alt="" srcset="">
+    <h1 data-title="abc">這是H1標題</h1>
+    <h2>這是H2標題</h2>
+    <h3>
+        我是h3
+    </h3>
+    <div id="box">
+    </div>
+    <a href="#" class="item">我是連結</a>
+
+    <ul>
+        <li class="item">首頁</li>
+        <li class="item">關於我們<ul>
+                <li>text</li>
+                <li>111</li>
+                <li>222</li>
+            </ul>
+        </li>
+
+        <li class="item">產品介紹</li>
+        <li class="item">聯絡我們</li>
+    </ul>
+    <input type="text" value="輸入框1">
+    <input type="radio"> 男 <input type="radio"> 女
+</body>
+
+</html>
